@@ -1,0 +1,80 @@
+
+.content
+{width:900px ;
+    margin: auto;
+    height: 500px;
+ 
+background-color: rgba(0, 0, 255, 0.938);}
+
+li
+{display:inline-block;
+width: 100px;
+height: 5px;
+text-align: center;
+margin: auto;
+margin-top: 3px ;
+font-size: 12px;
+
+}
+ul
+{ border-bottom:solid 3px;
+color: rgba(194, 177, 177, 0.336);
+text-decoration: none;
+margin: auto;}
+
+
+.nav1 a{text-decoration: none;
+color: white;}
+
+.nav2 a {
+    color: hsl(261, 87%, 34%);
+    text-decoration: none;
+   margin-left: 30px;
+}
+.nav3 a,.nav4 a,.nav7 a {color:white;
+text-decoration: none;
+padding: 1px;
+font-size: 12px;}
+
+.nav7 a {
+    text-decoration: none;
+    font-size: 13px;
+  
+}
+.nav5 button {margin-left:120px;
+padding: 5px;
+width: 80px;
+background-color: rgba(0, 0, 255, 0.178);
+color: white;
+ border-style: solid ;
+ border-color: white;
+}
+.nav6 button {margin:  10px;
+padding-left: 80px;
+padding-right:80px;
+padding: 10px;
+background-color: rgb(73, 190, 179);
+color: white;
+font-size: 10px;
+border: none;}
+.center
+{text-align: center;
+    color:white;
+margin-top: 150px;
+font-size: 25px;}
+.domain
+{width: 400px;
+padding: 8px;
+background-color: rgba(0, 0, 255, 0.178);
+border-style: solid 1px ;
+border-color: white;
+color: white;}
+.sub
+{background-color: turquoise;
+padding: 10px;
+color: white;
+margin-top: 15px;
+border:  none;}
+.chek
+{font-size: 15px;
+margin: 20px;}

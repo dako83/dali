@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;  
+    margin: 0px;
+
+}
+
+
+/* part 1 */
+.card{
+    width: 800px;
+    margin: 200px auto;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(190, 171, 171); 
+    max-width: 100%;
+    display: flex;  
+}
+
+.cardbody{
+    width: 45%;
+    font-family: cursive;
+    color: #5a4833;
+    margin-left: 15px;
+    font-size: 12px;
+    text-align:justify
+
+}
+.Photo{
+    width: 50%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.Travel{
+   
+    letter-spacing: 5px;
+    color: #786358;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #746963;
+    font-size: 13px;
+    text-decoration: underline ;
+    text-decoration-style:double; 
+    margin-bottom: 15px;
+    padding-top: 8px;
+    text-transform: uppercase;
+ 
+}
+
+.Textdeco1{
+
+    letter-spacing: 2px;
+    color: #786358;
+    margin-top: 15px;
+
+}
+
+.Textdeco2{
+
+    letter-spacing: 2px;
+    color: #786358;
+}
+
+a {
+    text-decoration: none;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: dimgrey;
+    display: inline-block;
+    margin-top: 30px;
+}
+/* part1-end */
+
+/* part2 */
+
+
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.beer1{
+    /* background-color: rgb(94, 88, 88); */
+    width: 33.3%;
+    padding: 0 15px;
+    margin-bottom: 15px;
+    margin-left: -15px;
+}
+
+.imgstyle{
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.mycard{
+    box-shadow: 5px 5px 8px gray;
+    border-radius: 8px;
+}
+
+.mybody{
+    font-family:  Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h4{
+    text-decoration: overline underline;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    
+}
+
+.h1style{
+    color: #b8a895;
+    font-family: cursive;
+    margin-bottom: 2px;
+    margin-top: 2px
+  
+
+}
+
+.pstyle{
+    color: grey;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.beerheading{
+    height: 300px;
+    background-image: url(https://inspiringtips.com/wp-content/uploads/2019/07/Ways-to-Be-a-Good-Friend-1200.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+
+}
+
+.logo{
+    height: 60px;
+    display: block;
+    padding: 7px 0;
+    
+}
+
+nav{
+    background-color: #3e3e32;
+    box-shadow: 5px 5px 12px rgb(160, 161, 157);
+    position: fixed;
+    width: 100%;
+    top:0;
+
+}
+
+.nav1{
+    
+        display: flex;
+        justify-content: space-between;
+}
+
+.navli{
+    display: inline-block;
+}
+
+.navli a{
+    text-decoration: underline;
+    text-decoration-style: double;
+    color: #ffb400;
+    font-size: 15px;
+    margin-left: 17px;
+    text-transform: uppercase;
+}
+
+ul{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-left: 0;
+    padding-top: 15px;
+    
+}
+
+/* part3 */
+
+.content2{
+    width: 700px;
+    margin: 100px auto;
+    max-width: 100%;
+    background-color: thistle;
+    border-radius: 8px;
+    box-shadow: 7px 7px 10px rgb(190, 171, 171); 
+    
+
+}
+
+.div100{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(75, 75, 117);
+}
+
+.div50{
+    width: 50%;
+    padding: 15px;
+    
+}
+
+.div33{
+    width: 33.3%;
+    padding: 15px;
+}
+
+.div25{
+    width: 25%;
+    padding: 15px;
+}
+
+.div-p{
+    background-color: rgb(75, 75, 117);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    height: 35px;
+    padding-top: 10px;
+}
+
+.div100-p{
+    padding-top: 35px;
+}

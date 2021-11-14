@@ -1,0 +1,28 @@
+
+
+
+header {
+    background-image: url('./imge/BUNEBA.jpg');
+
+    height: 400px;
+    background-position:center;
+    background-size:contain;
+    border: 50px solid blue
+
+}
+
+
+h1.text1 {
+    text-align:center;
+     color:blue ;
+
+}
+
+h2.text2 {
+    text-align:center;
+     color:blue ;
+
+}
+p.text 
+{text-align: center;
+}

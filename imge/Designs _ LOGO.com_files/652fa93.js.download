@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[217],{460:function(l){l.exports=JSON.parse('{"title":"Resize Icon","tippy":"","buttons":[{"label":"Extra Small","value":"0.5"},{"label":"Small","value":"0.75"},{"label":"Default","value":"1"},{"label":"Large","value":"1.5"},{"label":"Extra Large","value":"2"}]}')}}]);
