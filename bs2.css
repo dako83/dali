@@ -1,0 +1,35 @@
+.footer-icons{background-color:rgb(19, 19, 185);
+    display: inline-block;
+  margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 0px;
+    
+    
+    
+}
+.container-fluid a{color: white;}
+
+  
+
+  .ulli3{
+    padding-top: 5px;
+    display: inline-block;
+    padding-bottom: 5px;
+    
+    
+    
+    }
+    
+    .ulli3 a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-left: 0px;
+  padding: 60px;
+
+   
+  @media (min-width: 992px)
+  .container, .container-lg, .container-md, .container-sm {
+      max-width: 1100px;
+  
+  }}
