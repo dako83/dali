@@ -297,11 +297,11 @@ background-blend-mode: darken;
 .footer h2   span:last-child {
   color: #f75f0d;
 }
- .container  {width: 60%;}
- .colfooter {width: 60%;}
- .colfooter .btn {background-color:#f75f0d; 
+ .container 
+  {width: 60%;}
+ .colfooter 
+ {width: 60%;}
+ .colfooter .btn
+  {background-color:#f75f0d; 
 }
 
- 
-   }
-  }
