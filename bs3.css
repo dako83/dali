@@ -44,9 +44,10 @@ margin-top: 15px;}
 
 .footer 
 {background-color:rgb(16, 16, 66);
-margin-top: 10px;
+
 height: 400px;
-margin-bottom: 50px;
+top: 50px;
+width: 100%;
 }
 
 .contact 
@@ -61,11 +62,11 @@ text-align:center ;}
 
 .col1
 {height: 130px;
-padding-right:  10px;
-width: 99%;}
+
+width: 100%;}
 
 .col2{
-    width:49%;
+    width:50%;
 }
 
 input[type=submit]{
