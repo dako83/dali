@@ -302,15 +302,6 @@ background-blend-mode: darken;
  .colfooter .btn {background-color:#f75f0d; 
 }
 
-@media  screen  and (min-width: 300px) {
-  
-  .workphoto.row.header2 
-  
- {
- 
-    max-width: 100%;
-    
-    margin-right: 0px;
  
    }
   }
