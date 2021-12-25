@@ -1,23 +1,23 @@
 
 // fahrenhei
 
-   function convertor(fahrenheit){
+   function convertor5(fahrenheit){
 
    let resul=(5/9)*(fahrenheit-32);
    return resul.toFixed(2);
   
  }
- console.log(convertor(52));
+ console.log(convertor5(52));
 
 
- document.getElementById("output").innerHTML =convertor(52);
+ document.getElementById("output").innerHTML =convertor5(52);
 
 
 
 
 // ორი რიცხვის ნამრავლი 
 
-function convertor(num1, num2){
+function convertor2(num1, num2){
 
     let resul=num1*num2;
     
@@ -26,7 +26,7 @@ function convertor(num1, num2){
      return resul.toFixed(0);// ერთეულებამდე 
    
   }
-  console.log(convertor(1.5, 2.35));
+  console.log(convertor2(1.5, 2.35));
 
 
 
@@ -50,7 +50,7 @@ let card = `
 </div>
 </div>
 `
-document.getElementById(selector).innerHTML = card
+document.getElementById(selector).innerHTML =  card
 
 
 }
@@ -64,11 +64,38 @@ mycard("https://getbootstrap.com/docs/5.1/components/card/","imege2/2","inner2")
 
 
 
- function convertor(word){
+ function convertor3(word){
   let str = "I study word";
   let newstr= str.replace("word", ' ');
   return newstr;
  }
-    console.log(convertor("html"));
+    console.log(convertor3("html"));
     
- 
+ //ობიქტები
+
+ let User= {
+  name:"admin",
+
+  email:"admin@info.ge",
+  role:2,
+  
+  checkadmin:function(){
+    if(this.role == 1)
+    {return true;}
+  
+
+    return false;
+  },
+}
+
+//User.role=2;
+
+let key=Object.keys(User);
+let val=Object.values(User);
+let all=Object.entries (User);
+
+console.log(all)
+
+
+
+
